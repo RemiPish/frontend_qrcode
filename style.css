@@ -42,7 +42,7 @@ body{
     width: 100%;
     max-width: 250px;
     border-radius: 10px;
-    margin-bottom: var(--space-300);
+    margin-block-end: var(--space-300);
 }
 
 .cta__title{
@@ -50,14 +50,14 @@ body{
     font-weight: bold;
     font-size: 22px;
     line-height: 120%;
-    margin-bottom: var(--space-200);
+    margin-block-end: var(--space-200);
 }
 
 .cta__desc{
     color: var(--slate-500);
     line-height: 120%;
     font-size: 15px;
-    margin-bottom: var(--space-200);
+    margin-block-end: var(--space-200);
 }
 
 footer{
