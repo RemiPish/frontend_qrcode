@@ -63,3 +63,8 @@ body{
 footer{
     padding: var(--space-200);
 }
+
+footer a:focus-visible {
+    outline: 3px solid #005fcc; /* Clear blue outline */
+    outline-offset: 2px;        /* Space between outline and element */
+  }
