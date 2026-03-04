@@ -28,18 +28,19 @@ body{
 }
 
 .cta-card {
-    padding: 15px;
+    padding: 1rem;           
     margin: auto;
-    border-radius: 15px;
+    border-radius: 1rem;     
     background-color: var(--white);
-    max-width: 250px;
+    max-width: 90%;          
+    max-width: clamp(200px, 40vw, 300px);
     height: fit-content;
     text-align: center;
 }
 
 .cta-card img {
     width: 100%;
-    max-width: 288px;
+    max-width: 250px;
     border-radius: 10px;
     margin-bottom: var(--space-300);
 }
